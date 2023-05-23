@@ -39,8 +39,8 @@
         <div class="ep-container"> <label for="password">Enter Password:</label><input type="password" id="password" class="in-fld"></div>
      <p class="forgot">Forgot<a href="#" class="fgt-link">Password?</a></p>
      <div class="l-btn-container"> 
-        <button class="btn cursor tbtn cbtn">Cancel</button>
-        <button class="btn cursor tbtn">Login</button>
+        <button class="btn cursor tbtn cbtn" id="cancel">Cancel</button>
+        <button class="btn cursor tbtn" id="login">Login</button>
     </div>
     <p class="n-register">Don't have any account?<a href="#" class="fgt-link">Register</a></p>
     </div>
@@ -101,7 +101,7 @@
 
             <div class="scholarship-item">
                 <h3 class="scholarship-name">Name Of Scholarship</h3>
-                <div class="nation blank">Eligible: <span>only Indian</span></div>
+                <div class="nation blank">Who Can Apply: <span>only Indian</span></div>
                 <div class="last-date blank">Last Date: <span>30 May 2023</span></div>
                 <div class="Category blank">Category: <span>SC , ST</span></div>
                 <div class="description">description of the Scholarship that provide a sort idea about scholarship</div>
@@ -190,7 +190,7 @@
         
                     <div class="scholarship-item">
                         <h3 class="scholarship-name">Name Of Scholarship</h3>
-                        <div class="nation blank">Eligible: <span>only Indian</span></div>
+                        <div class="nation blank">Who Can Apply: <span>only Indian</span></div>
                         <div class="last-date blank">Last Date: <span>30 May 2023</span></div>
                         <div class="Category blank">Category: <span>SC , ST</span></div>
                         <div class="description">description of the Scholarship that provide a sort idea about scholarship</div>
@@ -209,7 +209,7 @@
         
                     <div class="scholarship-item">
                         <h3 class="scholarship-name">Name Of Scholarship</h3>
-                        <div class="nation blank">Eligible: <span>only Indian</span></div>
+                        <div class="nation blank">Who Can Apply: <span>only Indian</span></div>
                         <div class="last-date blank">Last Date: <span>30 May 2023</span></div>
                         <div class="Category blank">Category: <span>SC , ST</span></div>
                         <div class="description">description of the Scholarship that provide a sort idea about scholarship</div>
@@ -228,7 +228,7 @@
         
                     <div class="scholarship-item">
                         <h3 class="scholarship-name">Name Of Scholarship</h3>
-                        <div class="nation blank">Eligible: <span>only Indian</span></div>
+                        <div class="nation blank">Who Can Apply: <span>only Indian</span></div>
                         <div class="last-date blank">Last Date: <span>30 May 2023</span></div>
                         <div class="Category blank">Category: <span>SC , ST</span></div>
                         <div class="description">description of the Scholarship that provide a sort idea about scholarship</div>
@@ -264,6 +264,7 @@
     </footer>
 <script src="js/three.r134.min.js"></script>
 <script src="js/vanta.waves.min.js"></script>
+<script src="js/login.js"></script>
 <script>
     VANTA.WAVES({
       el: "#mid-container",
